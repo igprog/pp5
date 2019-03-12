@@ -1,0 +1,137 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="PP4ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\PP4.mdb&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\PP4.mdb</Value>
+    </Setting>
+    <Setting Name="AktivacijskiKljuc" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ne</Value>
+    </Setting>
+    <Setting Name="Instalacija" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ne</Value>
+    </Setting>
+    <Setting Name="PP4aConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\PP4a.mdb&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\PP4a.mdb</Value>
+    </Setting>
+    <Setting Name="PP5ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\PP5.mdb&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\PP5.mdb</Value>
+    </Setting>
+    <Setting Name="PP5aConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\PP5a.mdb&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.OleDb&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\PP5a.mdb</Value>
+    </Setting>
+    <Setting Name="Valuta" Type="System.String" Scope="User">
+      <Value Profile="(Default)">HRK</Value>
+    </Setting>
+    <Setting Name="DgvBoja" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">ControlLightLight</Value>
+    </Setting>
+    <Setting Name="DgvBojaSelect" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">GradientActiveCaption</Value>
+    </Setting>
+    <Setting Name="Obrok1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Doručak</Value>
+    </Setting>
+    <Setting Name="Obrok2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Jutarnja užina</Value>
+    </Setting>
+    <Setting Name="Obrok3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ručak</Value>
+    </Setting>
+    <Setting Name="Obrok4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Popodnevna užina</Value>
+    </Setting>
+    <Setting Name="Obrok5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Večera</Value>
+    </Setting>
+    <Setting Name="Obrok6" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Obrok pred spavanje</Value>
+    </Setting>
+    <Setting Name="PP5StartKod1" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">128</Value>
+    </Setting>
+    <Setting Name="PP5StartKod2" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">465</Value>
+    </Setting>
+    <Setting Name="PP5StartKod3" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">310</Value>
+    </Setting>
+    <Setting Name="PP5StartKod4" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">279</Value>
+    </Setting>
+    <Setting Name="PP5StartAktivacija" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ne</Value>
+    </Setting>
+    <Setting Name="PP5StartAktivacijaDatum" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PP5PremiumKod1" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">214</Value>
+    </Setting>
+    <Setting Name="PP5PremiumKod2" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">328</Value>
+    </Setting>
+    <Setting Name="PP5PremiumKod3" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">316</Value>
+    </Setting>
+    <Setting Name="PP5PremiumKod4" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">242</Value>
+    </Setting>
+    <Setting Name="PP5PremiumAktivacija" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ne</Value>
+    </Setting>
+    <Setting Name="PP5PremiumAktivacijaDatum" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PP5StartTrajnaLicencaKod" Type="System.String" Scope="User">
+      <Value Profile="(Default)">324-735-286-139</Value>
+    </Setting>
+    <Setting Name="PP5StartTrajnaLicencaAktivacija" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ne</Value>
+    </Setting>
+    <Setting Name="PP5PremiumTrajnaLicencaKod" Type="System.String" Scope="User">
+      <Value Profile="(Default)">486-217-423-352</Value>
+    </Setting>
+    <Setting Name="PP5PremiumTrajnaLicencaAktivacija" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ne</Value>
+    </Setting>
+    <Setting Name="PP5Premium2MjKod1" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">134</Value>
+    </Setting>
+    <Setting Name="PP5Premium2MjKod2" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">128</Value>
+    </Setting>
+    <Setting Name="PP5Premium2MjKod3" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">243</Value>
+    </Setting>
+    <Setting Name="PP5Premium2MjKod4" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">154</Value>
+    </Setting>
+    <Setting Name="PP5Premium2MjAktivacija" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Ne</Value>
+    </Setting>
+    <Setting Name="PP5Premium2MjAktivacijaDatum" Type="System.DateTime" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

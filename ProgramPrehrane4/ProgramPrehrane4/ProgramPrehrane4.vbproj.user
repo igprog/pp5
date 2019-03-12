@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>publish\|http://www.program-prehrane.com/pp4_files/</PublishUrlHistory>
+    <InstallUrlHistory>http://www.programprehrane.com/download/hr/|http://igprog-001-site4.smarterasp.net/download/hr/|http://www.program-prehrane.com/pp5_files/|http://www.program-prehrane.com/pp4_files/</InstallUrlHistory>
+    <SupportUrlHistory>http://www.program-prehrane.com</SupportUrlHistory>
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

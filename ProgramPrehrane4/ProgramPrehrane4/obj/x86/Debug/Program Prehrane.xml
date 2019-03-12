@@ -1,0 +1,512 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ProgramPrehrane
+</name>
+</assembly>
+<members>
+<member name="T:ProgramPrehrane4.PP5DataSet.BazaNazivaPrimjeraJelovnikaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.BazaPrimjeraJelovnikaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.DorucakDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.JutarnjaUzinaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.Obrok7DataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.ObrokPredSpavanjeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.OdabranaDodatnaTjelesnaAktivnostDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.PopodnevnaUzinaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.PripremljenaJelaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.RucakDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.SportskeAktivnostiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.SveNamirniceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.SveTjelesneAktivnostiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.VeceraDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.VrstaDijeteDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.BazaNazivaPrimjeraJelovnikaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.BazaPrimjeraJelovnikaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.DorucakRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.JutarnjaUzinaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.Obrok7Row">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.ObrokPredSpavanjeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.OdabranaDodatnaTjelesnaAktivnostRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.PopodnevnaUzinaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.PripremljenaJelaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.RucakRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.SportskeAktivnostiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.SveNamirniceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.SveTjelesneAktivnostiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.VeceraRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.VrstaDijeteRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.BazaNazivaPrimjeraJelovnikaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.BazaPrimjeraJelovnikaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.DorucakRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.JutarnjaUzinaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.Obrok7RowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.ObrokPredSpavanjeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.OdabranaDodatnaTjelesnaAktivnostRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.PopodnevnaUzinaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.PripremljenaJelaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.RucakRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.SportskeAktivnostiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.SveNamirniceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.SveTjelesneAktivnostiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.VeceraRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet.VrstaDijeteRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSetTableAdapters.BazaNazivaPrimjeraJelovnikaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSetTableAdapters.BazaPrimjeraJelovnikaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSetTableAdapters.DorucakTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSetTableAdapters.JutarnjaUzinaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSetTableAdapters.Obrok7TableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSetTableAdapters.ObrokPredSpavanjeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSetTableAdapters.OdabranaDodatnaTjelesnaAktivnostTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSetTableAdapters.PopodnevnaUzinaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSetTableAdapters.PripremljenaJelaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSetTableAdapters.RucakTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSetTableAdapters.SportskeAktivnostiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSetTableAdapters.SveNamirniceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSetTableAdapters.SveTjelesneAktivnostiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSetTableAdapters.VeceraTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSetTableAdapters.VrstaDijeteTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ProgramPrehrane4.PP5DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ProgramPrehrane4.PP5DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ProgramPrehrane4.PP5DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ProgramPrehrane4.PP5DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ProgramPrehrane4.PP5DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ProgramPrehrane4.PP5DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ProgramPrehrane4.PP5DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ProgramPrehrane4.PP5DataSetTableAdapters.TableAdapterManager.UpdateAll(ProgramPrehrane4.PP5DataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5DataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.BazaEnergetskePotrosnjeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.BazaJelovnikaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.BazaKorisnikaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.BazaNazivaJelovnikaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.BazaOdabranihAktivnostiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.CijeneDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.FavoritiDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.KorisniciDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.KorisniciPracenjeStanjaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.MojeNamirniceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.TjelesneAktivnostiBazaKorisnikaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.BazaEnergetskePotrosnjeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.BazaJelovnikaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.BazaKorisnikaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.BazaNazivaJelovnikaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.BazaOdabranihAktivnostiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.CijeneRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.FavoritiRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.KorisniciRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.KorisniciPracenjeStanjaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.MojeNamirniceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.TjelesneAktivnostiBazaKorisnikaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.BazaEnergetskePotrosnjeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.BazaJelovnikaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.BazaKorisnikaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.BazaNazivaJelovnikaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.BazaOdabranihAktivnostiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.CijeneRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.FavoritiRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.KorisniciRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.KorisniciPracenjeStanjaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.MojeNamirniceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet.TjelesneAktivnostiBazaKorisnikaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSetTableAdapters.BazaEnergetskePotrosnjeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSetTableAdapters.BazaJelovnikaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSetTableAdapters.BazaKorisnikaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSetTableAdapters.BazaNazivaJelovnikaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSetTableAdapters.BazaOdabranihAktivnostiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSetTableAdapters.CijeneTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSetTableAdapters.FavoritiTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSetTableAdapters.KorisniciTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSetTableAdapters.KorisniciPracenjeStanjaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSetTableAdapters.MojeNamirniceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSetTableAdapters.TjelesneAktivnostiBazaKorisnikaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:ProgramPrehrane4.PP5aDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ProgramPrehrane4.PP5aDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:ProgramPrehrane4.PP5aDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ProgramPrehrane4.PP5aDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:ProgramPrehrane4.PP5aDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ProgramPrehrane4.PP5aDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:ProgramPrehrane4.PP5aDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:ProgramPrehrane4.PP5aDataSetTableAdapters.TableAdapterManager.UpdateAll(ProgramPrehrane4.PP5aDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:ProgramPrehrane4.PP5aDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:ProgramPrehrane4.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ProgramPrehrane4.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ProgramPrehrane4.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

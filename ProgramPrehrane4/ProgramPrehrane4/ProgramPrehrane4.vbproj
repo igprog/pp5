@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AD78E629-DD4C-4526-B6CA-660094C7D8A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ProgramPrehrane4.My.MyApplication</StartupObject>
+    <RootNamespace>ProgramPrehrane4</RootNamespace>
+    <AssemblyName>Program Prehrane</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://www.programprehrane.com/download/hr/</InstallUrl>
+    <SupportUrl>http://www.programprehrane.com</SupportUrl>
+    <TargetCulture>hr-HR</TargetCulture>
+    <ProductName>Program Prehrane 5.0</ProductName>
+    <PublisherName>Program Prehrane</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationRevision>48</ApplicationRevision>
+    <ApplicationVersion>5.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Program Prehrane.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Program Prehrane.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8C14A76F0A1E6ACD685790F85F1E32829065424E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>ProgramPrehrane4_4_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>PPikona.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AktivnostiBindingSourceModul.vb" />
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="BazaJelovnikaBindingClearModul.vb" />
+    <Compile Include="BazaJelovnikaBindingSourceModul.vb" />
+    <Compile Include="BazaJelovnikaBrisiModul.vb" />
+    <Compile Include="BazaJelovnikaSpremiModul.vb" />
+    <Compile Include="BazaKorisnikaBindingSourceModul.vb" />
+    <Compile Include="BazaKorisnikaBrisiModul.vb" />
+    <Compile Include="BazaKorisnikaUzmiModul.vb" />
+    <Compile Include="BazaNazivaJelovnikaFilterModul.vb" />
+    <Compile Include="BazaNazivaJelovnikaSpremiModul.vb" />
+    <Compile Include="BmiModul.vb" />
+    <Compile Include="BrisiNamirnicuModul.vb" />
+    <Compile Include="CijenaMinimalnoModul.vb" />
+    <Compile Include="DanUTjednu1Modul.vb" />
+    <Compile Include="DanUTjednuModul.vb" />
+    <Compile Include="DemoModul.vb" />
+    <Compile Include="DgvStyleModul.vb" />
+    <Compile Include="DijetaBindingSourceModul.vb" />
+    <Compile Include="DodatnaEnergetskaPotrosnjaPreporukaModul.vb" />
+    <Compile Include="DodatnaTjelesnaAktivnostModul.vb" />
+    <Compile Include="EditiranjeNamirniceForma.Designer.vb">
+      <DependentUpon>EditiranjeNamirniceForma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EditiranjeNamirniceForma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditiranjeNamirniceModul.vb" />
+    <Compile Include="EnergetskaPotrosnjaBindingSourceModul.vb" />
+    <Compile Include="EnergetskaPotrosnjaDjecaModul.vb" />
+    <Compile Include="EnergetskaPotrosnjaModul.vb" />
+    <Compile Include="EnergetskaPotrosnjaUkupnoModul.vb" />
+    <Compile Include="FavoritiSpremiModul.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MjeraEditiranjeNamirniceModul.vb" />
+    <Compile Include="PP5DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PP5DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PripremljenaJelaForm.Designer.vb">
+      <DependentUpon>PripremljenaJelaForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PripremljenaJelaForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GotovaJelaModul.vb" />
+    <Compile Include="GubiciVitaminaModul.vb" />
+    <Compile Include="IspisModul.vb" />
+    <Compile Include="IspisOsobniPodaciModul.vb" />
+    <Compile Include="IspisParametriModul.vb" />
+    <Compile Include="MjeraModul.vb" />
+    <Compile Include="MojeNamirniceBindingSourceModul.vb" />
+    <Compile Include="MojeNamirniceSpremiModul.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NevidljiviLabeliModul.vb" />
+    <Compile Include="NoviJelovnikModul.vb" />
+    <Compile Include="NoviKorisnikModul.vb" />
+    <Compile Include="NParametriModul.vb" />
+    <Compile Include="NutrijentiPreporuceniPostociModul.vb" />
+    <Compile Include="ObrociModul.vb" />
+    <Compile Include="ObrociNutrijentiUkupnoModul.vb" />
+    <Compile Include="OdaberiNamirnicuModul.vb" />
+    <Compile Include="OdabirAktivnostiModul.vb" />
+    <Compile Include="OProgramuForma.Designer.vb">
+      <DependentUpon>OProgramuForma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="OProgramuForma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OstaleNamirnicePreporukaModul.vb" />
+    <Compile Include="ParametriModul.vb" />
+    <Compile Include="ParametriPreporuceneVrijednostiModul.vb" />
+    <Compile Include="ParametriProgressBarModul.vb" />
+    <Compile Include="PP5aDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PP5aDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="PracenjeStanjaBindingSourceModul.vb" />
+    <Compile Include="PracenjeStanjaDodajModul.vb" />
+    <Compile Include="PracenjeStanjaFilterModul.vb" />
+    <Compile Include="PracenjeStanjaGrafModul.vb" />
+    <Compile Include="PracenjeStanjaModul.vb" />
+    <Compile Include="PrebaciNamirnicuModul.vb" />
+    <Compile Include="PremiumModul.vb" />
+    <Compile Include="PrepBrojServCrijevaModul.vb" />
+    <Compile Include="PrepBrojServDijabetModul.vb" />
+    <Compile Include="PrepBrojServGlikogenModul.vb" />
+    <Compile Include="PrepBrojServJetraModul.vb" />
+    <Compile Include="PrepBrojServLaganaModul.vb" />
+    <Compile Include="PrepBrojServModul.vb" />
+    <Compile Include="PrepBrojServVegeModul.vb" />
+    <Compile Include="PricekajteTrenutakDemoForma.Designer.vb">
+      <DependentUpon>PricekajteTrenutakDemoForma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PricekajteTrenutakDemoForma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PricekajteTrenutakStartForma.Designer.vb">
+      <DependentUpon>PricekajteTrenutakStartForma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PricekajteTrenutakStartForma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PricekajteTrenutakPremiumForma.Designer.vb">
+      <DependentUpon>PricekajteTrenutakPremiumForma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PricekajteTrenutakPremiumForma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrimjeriAktivnostiNaPosluForma.Designer.vb">
+      <DependentUpon>PrimjeriAktivnostiNaPosluForma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PrimjeriAktivnostiNaPosluForma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PripremljenaJelaModul.vb" />
+    <Compile Include="RichTextBoxPrintCtrl.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SaveModul.vb" />
+    <Compile Include="Settings.vb" />
+    <Compile Include="SkupineNamirnicaModul.vb" />
+    <Compile Include="SortiranjeIspisaForm.Designer.vb">
+      <DependentUpon>SortiranjeIspisaForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SortiranjeIspisaForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpremiKorisnikaModul.vb" />
+    <Compile Include="StartModul.vb" />
+    <Compile Include="TermickeObradeModule.vb" />
+    <Compile Include="TrajanjeAktivnostiOdDoModul.vb" />
+    <Compile Include="UkupneVrijednostiModul.vb" />
+    <Compile Include="UlazPPForma.Designer.vb">
+      <DependentUpon>UlazPPForma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UlazPPForma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UzmiBazaJelovnikaModul.vb" />
+    <Compile Include="VrstaPrehranePreporukaModul.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="EditiranjeNamirniceForma.resx">
+      <DependentUpon>EditiranjeNamirniceForma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PripremljenaJelaForm.resx">
+      <DependentUpon>PripremljenaJelaForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OProgramuForma.resx">
+      <DependentUpon>OProgramuForma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PricekajteTrenutakDemoForma.resx">
+      <DependentUpon>PricekajteTrenutakDemoForma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PricekajteTrenutakStartForma.resx">
+      <DependentUpon>PricekajteTrenutakStartForma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PricekajteTrenutakPremiumForma.resx">
+      <DependentUpon>PricekajteTrenutakPremiumForma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrimjeriAktivnostiNaPosluForma.resx">
+      <DependentUpon>PrimjeriAktivnostiNaPosluForma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SortiranjeIspisaForm.resx">
+      <DependentUpon>SortiranjeIspisaForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UlazPPForma.resx">
+      <DependentUpon>UlazPPForma.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\app.manifest">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="PP5aDataSet.xsc">
+      <DependentUpon>PP5aDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PP5aDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PP5aDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PP5aDataSet.xss">
+      <DependentUpon>PP5aDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PP5DataSet.xsc">
+      <DependentUpon>PP5DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PP5DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PP5DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PP5DataSet.xss">
+      <DependentUpon>PP5DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProgramPrehrane4_1_TemporaryKey.pfx" />
+    <None Include="ProgramPrehrane4_2_TemporaryKey.pfx" />
+    <None Include="ProgramPrehrane4_3_TemporaryKey.pfx" />
+    <None Include="ProgramPrehrane4_4_TemporaryKey.pfx" />
+    <None Include="ProgramPrehrane4_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PP5.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PP5a.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PPikona.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
